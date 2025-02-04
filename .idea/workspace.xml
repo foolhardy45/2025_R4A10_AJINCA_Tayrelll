@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="debut tp2 ajout des fichier angular et js">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/assets/GrandLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_script/1_types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_script/2_interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_script/lego_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_script/lego_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_script/lego_3.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="TP1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2sZsPp66NzPa6SfbUwj47pWBkHz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "TP2",
+    "last_opened_file_path": "/home/etudiants/info/tajinca/WebstormProjects/2025_R4A10_AJINCA_Tayrelll/angular_tp2/src/app/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/etudiants/info/tajinca/WebstormProjects/2025_R4A10_AJINCA_Tayrelll/angular_tp2/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular_tp2/src/app/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular_tp2/src/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="" />
+      <created>1738674409358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738674409358</updated>
+      <workItem from="1738674410603" duration="166000" />
+      <workItem from="1738674600968" duration="265000" />
+      <workItem from="1738674935617" duration="9000" />
+      <workItem from="1738674955891" duration="6206000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add initial implementation of array, object, string, and control manipulation functions">
+      <option name="closed" value="true" />
+      <created>1738674662129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738674662129</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add initial implementation of array, object, string, and control manipulation functions">
+      <option name="closed" value="true" />
+      <created>1738674681610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738674681610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add initial implementation of array, object, string, and control manipulation functions" />
+    <MESSAGE value="debut tp2 ajout des fichier angular et js" />
+    <option name="LAST_COMMIT_MESSAGE" value="debut tp2 ajout des fichier angular et js" />
+  </component>
+</project>
