@@ -18,10 +18,35 @@
     justify-content: center;
 }
 
-.Btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 14px auto;
+.btn {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+
+
+  .rectangle {
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+  }
+
+  .text {
+    position: absolute;
+    left: 51px;
+    top: 0;
+    color: #458ff6;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    word-wrap: break-word;
+  }
 }
+
 
