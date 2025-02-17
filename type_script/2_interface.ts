@@ -40,9 +40,9 @@ interface FindMany<T> {
 }
 
 /*
-2. Faire le reste du CRUD 
+2. Faire le reste du CRUD
 
-On parle de CRUD (Create / Read / Update / Delete) car ce sont généralement les fonctions de base associées 
+On parle de CRUD (Create / Read / Update / Delete) car ce sont généralement les fonctions de base associées
 à une ressource.
 
 Quand on pense à une ressource quelconque, il y a souvent 5 actions qui reviennent:
@@ -69,7 +69,21 @@ Dans la première question, vous avez fait FindMany. Sur le même modèle, faite
 - delete, prend en argument un id, et renvoie une promesse qui ne renvoie rien (pas de générique sur cette interface, on utilisera le type associé)
 */
 
+interface FindOne<T> {
+    findOne(id: number): Promise<T>;
+}
 
+interface Create<T> {
+    create(entry: T): Promise<T>;
+}
+
+interface Update<T> {
+    update(id: number, entry: T): Promise<T>;
+}
+
+interface Delete {
+    delete(id: number): Promise<void>;
+}
 
 /*
 3. Créer les types Student et Course
@@ -87,6 +101,19 @@ Un cours est matérialisé par:
 - active, booléen
 */
 
+type Student = {
+    id: number;
+    firstName: string;
+    lastName: string;
+    group: string;
+}
+
+type Course = {
+    id: number;
+    name: string;
+    teacher: string;
+    active: boolean;
+}
 
 /*
 4. Créer les interfaces StudentRepository et CourseRepository
@@ -97,7 +124,9 @@ Ces deux interfaces vont étendre les interfaces CRUD que vous avez créées et 
 - CourseRepository étend FindMany, FindOne, Create et Update uniquement. Chaque interface prend Course en paramètre
 */
 
-// Implémentez ici
+interface StudentRepository extends FindMany<Student>, FindOne<Student>, Create<Student>, Update<Student>, Delete {}
+
+interface CourseRepository extends FindMany<Course>, FindOne<Course>, Create<Course>, Update<Course> {}
 
 /*
 5. Implémentation des classes
@@ -112,7 +141,45 @@ Chaque fonction devra être précédée du mot clé async : https://developer.mo
 Pour les findMany, retournez simplement un tableau vide, pour les autres, vous pouvez retourner null pour chaque méthode
 */
 
-// Implémentez ici
+class SQLStudentRepository implements StudentRepository {
+    async findMany(): Promise<Student[]> {
+        return [];
+    }
+
+    async findOne(id: number): Promise<Student> {
+        return null;
+    }
+
+    async create(entry: Student): Promise<Student> {
+        return null;
+    }
+
+    async update(id: number, entry: Student): Promise<Student> {
+        return null;
+    }
+
+    async delete(id: number): Promise<void> {
+        return;
+    }
+}
+
+class SQLCourseRepository implements CourseRepository {
+    async findMany(): Promise<Course[]> {
+        return [];
+    }
+
+    async findOne(id: number): Promise<Course> {
+        return null;
+    }
+
+    async create(entry: Course): Promise<Course> {
+        return null;
+    }
+
+    async update(id: number, entry: Course): Promise<Course> {
+        return null;
+    }
+}
 
 /**
  * Ca y est, vous êtes des génies (en devenir) du design logiciel en POO (le web aujourd'hui c'est beaucoup de software design, va falloir se préparer)
