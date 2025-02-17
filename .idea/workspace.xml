@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Add hero and carousel components with associated styles and assets">
-      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/models/slide-interface.ts" afterDir="false" />
+    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Add interfaces and repository implementations for Student and Course">
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/models/our-service-card-model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/services/our-service-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_script/1_types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type_script/1_types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_script/2_interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type_script/2_interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_script/lego_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_script/lego_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_script/lego_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/carousel/carousel.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/carousel/carousel.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +100,8 @@
       <workItem from="1739277154316" duration="8067000" />
       <workItem from="1739350285079" duration="305000" />
       <workItem from="1739816061145" duration="170000" />
-      <workItem from="1739816284131" duration="5163000" />
+      <workItem from="1739816284131" duration="5855000" />
+      <workItem from="1739828078208" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of array, object, string, and control manipulation functions">
       <option name="closed" value="true" />
@@ -148,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739289275942</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add carousel component with slides and update our service layout">
+      <option name="closed" value="true" />
+      <created>1739821603328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739821603328</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add interfaces and repository implementations for Student and Course">
+      <option name="closed" value="true" />
+      <created>1739822141457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739822141457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +182,8 @@
     <MESSAGE value="debut tp2 ajout des fichier angular et js" />
     <MESSAGE value="Add TypeScript types for Guard, Interceptor, ValidationSchema, Route, and Reponse" />
     <MESSAGE value="Add hero and carousel components with associated styles and assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add hero and carousel components with associated styles and assets" />
+    <MESSAGE value="Add carousel component with slides and update our service layout" />
+    <MESSAGE value="Add interfaces and repository implementations for Student and Course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interfaces and repository implementations for Student and Course" />
   </component>
 </project>

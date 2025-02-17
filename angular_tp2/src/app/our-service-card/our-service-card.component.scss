@@ -1,0 +1,35 @@
+.Rectangle {
+  background-color: #fff; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+  overflow: hidden; /* Masquer le débordement */
+  transition: transform 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+.Rectangle:hover {
+  transform: translateY(-10px); /* Déplacement vers le haut au survol */
+}
+
+img {
+  width: 91.978px; /* Réduire la taille de l'image */
+  height: 90px;
+  border-bottom: 1px solid #eee; /* Ligne de séparation */
+}
+
+.SearchDoctor {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.ChooseYourDoctorFromThousandsOfSpecialistGeneralAndTrustedHospitals {
+  color: #7D7987;
+  font-size: 16px;
+  font-family: Mulish, serif;
+  font-weight: 300;
+  line-height: 28px;
+  word-wrap: break-word;
+  padding: 0 10px 10px; /* Espacement interne */
+}
+
