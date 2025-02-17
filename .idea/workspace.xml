@@ -4,21 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Add TypeScript types for Guard, Interceptor, ValidationSchema, Route, and Reponse">
-      <change afterPath="$PROJECT_DIR$/angular_tp2/src/assets/logo.svg" afterDir="false" />
+    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Add hero and carousel components with associated styles and assets">
+      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/models/slide-interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/header/header.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/our-service/our-service.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type_script/1_types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type_script/1_types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type_script/2_interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type_script/2_interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type_script/lego_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/type_script/lego_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/type_script/lego_3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -28,6 +36,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;foolhardy45&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/foolhardy45/2025_R4A10_AJINCA_Tayrelll.git&quot;,
+    &quot;accountId&quot;: &quot;db96d7cb-cbb9-40c1-9082-a590fbe7bb82&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -36,22 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "TP2",
-    "last_opened_file_path": "C:/Users/Utilisateur/WebstormProjects/2025_R4A10_AJINCA_Tayrelll/angular_tp2/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "ts.external.directory.path": "C:\\Users\\Utilisateur\\WebstormProjects\\2025_R4A10_AJINCA_Tayrelll\\angular_tp2\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TP2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilisateur/WebstormProjects/2025_R4A10_AJINCA_Tayrelll/angular_tp2/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Utilisateur\\WebstormProjects\\2025_R4A10_AJINCA_Tayrelll\\angular_tp2\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Utilisateur\WebstormProjects\2025_R4A10_AJINCA_Tayrelll\angular_tp2\src\assets" />
@@ -66,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
       </set>
     </attachedChunks>
   </component>
@@ -83,7 +103,10 @@
       <workItem from="1738674935617" duration="9000" />
       <workItem from="1738674955891" duration="8079000" />
       <workItem from="1739272981254" duration="127000" />
-      <workItem from="1739277154316" duration="7608000" />
+      <workItem from="1739277154316" duration="8067000" />
+      <workItem from="1739350285079" duration="305000" />
+      <workItem from="1739816061145" duration="170000" />
+      <workItem from="1739816284131" duration="5163000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of array, object, string, and control manipulation functions">
       <option name="closed" value="true" />
@@ -117,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738684249358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add hero and carousel components with associated styles and assets">
+      <option name="closed" value="true" />
+      <created>1739289275942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739289275942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +170,7 @@
     <MESSAGE value="Add initial implementation of array, object, string, and control manipulation functions" />
     <MESSAGE value="debut tp2 ajout des fichier angular et js" />
     <MESSAGE value="Add TypeScript types for Guard, Interceptor, ValidationSchema, Route, and Reponse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TypeScript types for Guard, Interceptor, ValidationSchema, Route, and Reponse" />
+    <MESSAGE value="Add hero and carousel components with associated styles and assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add hero and carousel components with associated styles and assets" />
   </component>
 </project>

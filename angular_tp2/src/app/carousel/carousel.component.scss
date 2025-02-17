@@ -1,0 +1,95 @@
+.carousel-container {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-title {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-divider {
+  width: 50px;
+  height: 2px;
+  margin: 0.5rem auto;
+  background-color: white;
+  border: none;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+
+  .customer-info {
+    text-align: left;
+    margin-right: 2rem;
+
+    .customer-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 0.5rem;
+    }
+
+    .customer-name {
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    .customer-role {
+      font-size: 0.875rem;
+      color: #dcefff;
+    }
+  }
+
+  .customer-quote {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: white;
+    max-width: 400px;
+  }
+}
+
+.carousel-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .nav-arrow {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .nav-dots {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0 1rem;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: white;
+      opacity: 0.5;
+      cursor: pointer;
+
+      &.active {
+        opacity: 1;
+        background-color: #dcefff;
+      }
+    }
+  }
+}

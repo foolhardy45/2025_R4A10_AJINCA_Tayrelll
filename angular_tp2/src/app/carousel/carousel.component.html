@@ -1,0 +1,28 @@
+@if (slides.length > 0){
+    <div class="carousel-container">
+        <h2 class="carousel-title">What our customer are saying</h2>
+        <hr class="carousel-divider" />
+        <div class="carousel-content">
+            <div class="customer-info">
+                <img class="customer-photo" [src]="currentSlide.image" alt="Customer photo" />
+                <h3 class="customer-name">{{ currentSlide.name }}</h3>
+                <p class="customer-role">{{ currentSlide.sousDescription }}</p>
+            </div>
+            <blockquote class="customer-quote">
+                {{currentSlide.description }}
+            </blockquote>
+        </div>
+        <div class="carousel-navigation">
+            <button class="nav-arrow left" (click)="prev()">&larr;</button>
+            <div class="nav-dots">
+                <button class="dot active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+            <button class="nav-arrow right" (click)="next()">&rarr;</button>
+        </div>
+    </div>
+
+}
+
+

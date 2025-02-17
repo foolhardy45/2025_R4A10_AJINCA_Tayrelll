@@ -35,7 +35,9 @@ Sa seule propriété est une fonction findMany, qui ne prend pas d'argument et r
 attention on renvoie un tableau de T
 */
 
-// Implémentez ici
+interface FindMany<T> {
+    findMany(): Promise<T[]>;
+}
 
 /*
 2. Faire le reste du CRUD 
@@ -67,7 +69,7 @@ Dans la première question, vous avez fait FindMany. Sur le même modèle, faite
 - delete, prend en argument un id, et renvoie une promesse qui ne renvoie rien (pas de générique sur cette interface, on utilisera le type associé)
 */
 
-// Implémentez ici
+
 
 /*
 3. Créer les types Student et Course
@@ -85,7 +87,6 @@ Un cours est matérialisé par:
 - active, booléen
 */
 
-// Implémentez ici
 
 /*
 4. Créer les interfaces StudentRepository et CourseRepository

@@ -2,6 +2,12 @@
 <div class="main-content">
   <app-hero></app-hero>
   <app-our-service></app-our-service>
-  <app-carousel></app-carousel>
+    <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+        <app-carousel
+        [title]="carouselTitle"
+        [slides]="carouselSlides"
+        (nextSlide)="onSlideChanged($event)">
+        </app-carousel>
+    </div>
 </div>
 <app-footer></app-footer>
