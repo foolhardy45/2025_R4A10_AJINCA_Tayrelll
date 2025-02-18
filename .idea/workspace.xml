@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Add interfaces and repository implementations for Student and Course">
-      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/models/our-service-card-model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular_tp2/src/app/services/our-service-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular_tp2/src/app/carousel/carousel.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular_tp2/src/app/carousel/carousel.component.scss" afterDir="false" />
-    </list>
+    <list default="true" id="72a982ae-47c2-4cc1-b86d-dc97316173c2" name="Changes" comment="Refactor button styles and structure in our service component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +97,7 @@
       <workItem from="1739816061145" duration="170000" />
       <workItem from="1739816284131" duration="5855000" />
       <workItem from="1739828078208" duration="441000" />
+      <workItem from="1739828543545" duration="3629000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of array, object, string, and control manipulation functions">
       <option name="closed" value="true" />
@@ -159,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739822141457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor our service layout with dynamic service cards and enhance carousel styles">
+      <option name="closed" value="true" />
+      <created>1739831932514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739831932514</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactor button styles and structure in our service component">
+      <option name="closed" value="true" />
+      <created>1739832379357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739832379357</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +196,8 @@
     <MESSAGE value="Add hero and carousel components with associated styles and assets" />
     <MESSAGE value="Add carousel component with slides and update our service layout" />
     <MESSAGE value="Add interfaces and repository implementations for Student and Course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interfaces and repository implementations for Student and Course" />
+    <MESSAGE value="Refactor our service layout with dynamic service cards and enhance carousel styles" />
+    <MESSAGE value="Refactor button styles and structure in our service component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor button styles and structure in our service component" />
   </component>
 </project>
