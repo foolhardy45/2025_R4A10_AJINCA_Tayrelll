@@ -1,0 +1,7 @@
+<div class="card">
+  <h2>{{ voyage.destination }}</h2>
+  <p>{{ voyage.description | slice:0:20 }}</p>
+  <p>{{ voyage.prix | currency:'EUR' }}</p>
+    <button (click)="onSelect()">Voir plus</button>
+    <button (click)="onDelete()">Supprimer</button>
+</div>

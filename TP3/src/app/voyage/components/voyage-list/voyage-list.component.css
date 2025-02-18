@@ -1,0 +1,9 @@
+:host {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
