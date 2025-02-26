@@ -1,5 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Voyage} from "../models/voyage";
+import {DESTINATIONS, DESCRIPTIONS, PRIX} from "../../data/data"
 
 @Injectable({
     providedIn: 'root'
@@ -7,29 +8,34 @@ import {Voyage} from "../models/voyage";
 export class VoyageService {
     private voyages: Voyage[] = [
         new Voyage(
-            'paris',
+            'Paris, France',
             'c est la ville de l amour',
-            4000
+            4000,
+            0
         ),
         new Voyage(
-            'londres',
+            'Londres, Angleterre',
             'c est la ville de la pluie',
-            5000
+            5000,
+            1
         ),
         new Voyage(
-            'rome',
+            'Rome, Italie',
             'c est la ville de la pizza',
-            6000
+            6000,
+            2
         ),
         new Voyage(
-            'new york',
+            'New York, USA',
             'c est la ville de la statue de la liberté',
-            7000
+            7000,
+            3
         ),
         new Voyage(
-            'tokyo',
+            'Tokyo, Japon',
             'c est la ville de la technologie',
-            8000
+            8000,
+            4
         ),
     ];
 
@@ -47,9 +53,19 @@ export class VoyageService {
 
     deleteVoyage(id: number) {
         this.voyages = this.voyages.filter(voyage => voyage.id !== id);
+
     }
 
-    ajouterAléatoire(){
+    ajouterAleatoire(){
+        const randomDestination = DESTINATIONS[Math.floor(Math.random() * DESTINATIONS.length)];
+        const randomDescription = DESCRIPTIONS[Math.floor(Math.random() * DESCRIPTIONS.length)];
+        const randomPrix = PRIX[Math.floor(Math.random() * PRIX.length)];
+        const randomId = Math.floor(Math.random() * 1000);
 
+        return new Voyage(randomDestination, randomDescription, randomPrix,randomId);
+    }
+
+    addVoyage(voyage: Voyage) {
+        this.voyages.push(voyage);
     }
 }

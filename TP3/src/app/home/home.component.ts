@@ -12,10 +12,13 @@ import {VoyageListComponent} from "../voyage/components/voyage-list/voyage-list.
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+
+
   constructor(private router: Router) {
   }
 
   onContinue() {
     this.router.navigateByUrl('voyage/:id');
   }
+
 }

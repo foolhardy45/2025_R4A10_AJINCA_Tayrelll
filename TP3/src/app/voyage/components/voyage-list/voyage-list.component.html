@@ -1,8 +1,9 @@
 
 <section class="section" id="voyages">
-
-        @for (voyage of voyages; track voyage.id){
-            <app-voyage-list-item [voyage]="voyage"></app-voyage-list-item>
-        }
-
+    @for (voyage of voyages; track voyage.id){
+        <app-voyage-list-item
+                [voyage]="voyage"
+                (deleteVoyage)="deleteVoyage($event)"
+        ></app-voyage-list-item>
+    }
 </section>

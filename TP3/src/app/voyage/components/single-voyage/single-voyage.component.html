@@ -1,4 +1,7 @@
-<h1>{{voyage.destination}}</h1>
-<p>{{voyage.description}}</p>
-<p>{{voyage.prix | currency:'EUR'}}</p>
-<button (click)="onDelete()">Supprimer</button>
+@if (voyage){
+    <h2>{{ voyage.destination }}</h2>
+    <p>{{ voyage.description }}</p>
+    <p>Prix : {{ voyage.prix | currency:'EUR' }}</p>
+    <button (click)="onDelete()" class="btn btn-danger">Supprimer ce voyage</button>
+}
+

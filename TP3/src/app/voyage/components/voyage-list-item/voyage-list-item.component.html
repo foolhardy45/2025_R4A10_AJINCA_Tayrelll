@@ -3,5 +3,5 @@
   <p>{{ voyage.description | slice:0:20 }}</p>
   <p>{{ voyage.prix | currency:'EUR' }}</p>
     <button (click)="onSelect()">Voir plus</button>
-    <button (click)="onDelete()">Supprimer</button>
+    <button (click)="onDeleteVoyage()" mat-button color="warn">Supprimer</button>
 </div>

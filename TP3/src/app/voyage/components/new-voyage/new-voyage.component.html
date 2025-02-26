@@ -1,1 +1,10 @@
-<p>new-voyage works!</p>
+<h2>Générer un voyage aléatoire</h2>
+<button (click)="voyageAleatoire()" mat-button color="primary">Générer</button>
+
+@if(voyageGenere){
+    <h3>Voyage généré :</h3>
+    <p><strong>Destination :</strong> {{ voyageGenere.destination }}</p>
+    <p><strong>Description :</strong> {{ voyageGenere.description }}</p>
+    <p><strong>Prix :</strong> {{ voyageGenere.prix | currency:'EUR' }}</p>
+    <button (click)="validerVoyage()" mat-raised-button color="accent">Valider</button>
+}
