@@ -1,0 +1,8 @@
+@if(book$){
+<div class="book-details">
+  <h2>{{ (book$| async)?.title }}</h2>
+  <p class="author">Auteur : {{ (book$|async)?.author }}</p>
+  <p class="description">{{ (book$|async)?.description}}</p>
+  <img [src]="(book$|async)?.coverUrl" alt="{{ (book$|async)?.title }} cover" class="cover" />
+</div>
+}

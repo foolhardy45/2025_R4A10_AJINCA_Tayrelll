@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()" #bookForm="ngForm" class="mat-form-field">
+  <div>
+    <label for="title">Title:</label>
+      <input matInput type="text" id="title" required minlength="2" maxlength="35" [(ngModel)]="book.title" name="title" />
+  </div>
+  <div>
+    <label for="author">Author:</label>
+      <input matInput type="text" id="author" required minlength="5" maxlength="50" [(ngModel)]="book.author" name="author" />
+  </div>
+  <div>
+    <label for="description">Description:</label>
+      <textarea matInput id="description" required minlength="10" maxlength="255" [(ngModel)]="book.description" name="description"></textarea>
+  </div>
+    <button mat-raised-button color="primary" type="submit" [disabled]="!bookForm.form.valid">Submit</button>
+</form>
