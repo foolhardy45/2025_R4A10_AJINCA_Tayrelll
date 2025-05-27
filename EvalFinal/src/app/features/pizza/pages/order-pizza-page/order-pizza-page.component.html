@@ -1,0 +1,35 @@
+<form  (ngSubmit)="onSubmit()" >
+  <div>
+    <label for="pizza">Pizza :</label>
+    <select id="pizza" formControlName="pizza">
+        @for (pizza of pizzas; track $index){
+            <option [value]="pizza.name">{{ pizza.name }}</option>
+            }
+    </select>
+  </div>
+
+  <div>
+    <label for="size">Taille :</label>
+    <select id="size" formControlName="size">
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+      <option value="xxl">XXL</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="payment">Moyen de paiement :</label>
+    <select id="payment" formControlName="payment">
+      <option value="cash">Espèces</option>
+      <option value="card">Carte Bleue</option>
+      <option value="bitcoin">Bitcoin</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="email">Adresse email :</label>
+    <input type="email" id="email" formControlName="email" required>
+  </div>
+
+  <button type="submit">Commander</button>
+</form>
